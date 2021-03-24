@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=MuseoModerno:wght@200&family=Quicksand&display=swap');
+
+:root{
+--light-gray: #2b3032a1;
+--primary-color: black;
+--border: #2b303218;
+--text-color: #fff686b;
+--montserrat: "Montserrat", sans-serif;
+--museomoderno: "MuseoModerno", cursive;
+--quicksand: "Quicksand", sans-serif;
+}
+
+.form-group{
+	font-family: var(--quicksand);
+	font-size: 20px;
+}
+.CreateAC .form-group{
+	font-size: 15px;
+	line-height: 0.1;
+	display: inline-block;
+}
+.login{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}

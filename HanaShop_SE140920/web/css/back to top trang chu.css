@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.back-to-top{
+	top: 167.5rem;
+}
+
+@media only screen and (max-width: 600px){
+	.back-to-top{
+		top: 344.5rem;
+	}
+	.form-inline{
+		top: 10px;
+		left: 200px;
+		bottom: 30px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.newsletter-container{
+	float: right;
+	margin-right: 80px;
+}
+}
+@media only screen and (max-width: 600px){
+	.social-icons i {
+	padding: 20px 40px;
+}
+}
+

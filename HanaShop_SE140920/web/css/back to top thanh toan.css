@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.back-to-top{
+	position: absolute;
+	top: 56rem;
+}
+
+@media only screen and (max-width: 600px){
+	.back-to-top{
+		top: 51.5rem;
+	}
+}
+@media only screen and (max-width: 600px){
+	.newsletter-container{
+	float: right;
+	margin-right: 80px;
+}
+}
+@media only screen and (max-width: 600px){
+	.social-icons i {
+	padding: 20px 40px;
+}
+}
+

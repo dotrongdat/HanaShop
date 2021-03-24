@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-inline{
+	position: absolute;
+	top: 48px;
+	left: 800px;
+}
+
+@media only screen and (max-width: 600px){
+	.form-inline{
+		top: 10px;
+		left: 200px;
+		bottom: 30px;
+	}
+}
+.viewmore a{
+	font-family: var(--quicksand);
+	color: #C71515;
+	font-size: 18px;
+	text-decoration: underline;
+}

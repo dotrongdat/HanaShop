@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=MuseoModerno:wght@200&family=Quicksand&display=swap');
+:root{
+--montserrat: "Montserrat", sans-serif;
+--museomoderno: "MuseoModerno", cursive;
+--quicksand: "Quicksand", sans-serif;
+}
+.table .table-hover{
+	position: relative;
+}
+.danhmuc{
+	font-family: var(--montserrat);
+	font-size: 20px;
+	background-color: #F4B7A7;
+	color: white;
+}
+.danhmuc th{
+  left: 10px;
+}
+.danhmuc-img{
+	width: 150px;
+}
+.chitiet td{
+	font-family: var(--quicksand);
+	font-size: 18px;
+}
+.quantity {
+	width: 50px;
+}
+.shopping-btn button{
+  float: right;
+  height: 50px;
+  width: 190px;
+  border: transparent;
+  border-radius: 60px;
+  font-family:  var(--quicksand);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: black;
+  background-color: #f7c4b8;
+  margin-right: 30px;
+}
+.shopping-btn button:hover {
+  background-color: #f5a592;
+}
+.container-shopping-btn{
+	height: 90px;
+}
+.footer-content{
+  float: center;
+}
+.back-to-top{
+	position: absolute;
+	top: 66rem;
+}
